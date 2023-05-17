@@ -1,0 +1,10 @@
+const rdauthority = "docker.mactech.net.in:8020"; //UAT
+const rdauthority8022 = "docker.mactech.net.in:8022"; //UAT
+const rdauthority8021 = "docker.mactech.net.in:8021"; //UAT
+// const rdauthority = "docker.mactech.net.in:2020";//Live
+// const rdauthority8022 = "docker.mactech.net.in:2022";//Live
+// const rdauthority8021 = "docker.mactech.net.in:2021";//Live
+// const rdauthority7020 = "docker.mactech.net.in:7020";//Live
+const vrdauthority = "docker.mactech.net.in:3030"; //UAT
+const rdauthority6014 = "docker.mactech.net.in:6014";
+const rdauthority6015 = "docker.mactech.net.in:6015";

@@ -1,0 +1,794 @@
+// coverage:ignore-file
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
+
+part of 'rdbhfailure.dart';
+
+// **************************************************************************
+// FreezedGenerator
+// **************************************************************************
+
+T _$identity<T>(T value) => value;
+
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
+
+/// @nodoc
+class _$RdBhFailureTearOff {
+  const _$RdBhFailureTearOff();
+
+  _SessionTimeout sessionTimeout(String timeout) {
+    return _SessionTimeout(
+      timeout,
+    );
+  }
+
+  _UnAuthorized unAuthorized() {
+    return const _UnAuthorized();
+  }
+
+  _ClientFailure clientFailure() {
+    return const _ClientFailure();
+  }
+
+  _ServerFailure serverFailure() {
+    return const _ServerFailure();
+  }
+
+  _Makertranscation makertranscation(String transcations) {
+    return _Makertranscation(
+      transcations,
+    );
+  }
+}
+
+/// @nodoc
+const $RdBhFailure = _$RdBhFailureTearOff();
+
+/// @nodoc
+mixin _$RdBhFailure {
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function(String timeout) sessionTimeout,
+    required TResult Function() unAuthorized,
+    required TResult Function() clientFailure,
+    required TResult Function() serverFailure,
+    required TResult Function(String transcations) makertranscation,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_SessionTimeout value) sessionTimeout,
+    required TResult Function(_UnAuthorized value) unAuthorized,
+    required TResult Function(_ClientFailure value) clientFailure,
+    required TResult Function(_ServerFailure value) serverFailure,
+    required TResult Function(_Makertranscation value) makertranscation,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $RdBhFailureCopyWith<$Res> {
+  factory $RdBhFailureCopyWith(
+          RdBhFailure value, $Res Function(RdBhFailure) then) =
+      _$RdBhFailureCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class _$RdBhFailureCopyWithImpl<$Res> implements $RdBhFailureCopyWith<$Res> {
+  _$RdBhFailureCopyWithImpl(this._value, this._then);
+
+  final RdBhFailure _value;
+  // ignore: unused_field
+  final $Res Function(RdBhFailure) _then;
+}
+
+/// @nodoc
+abstract class _$SessionTimeoutCopyWith<$Res> {
+  factory _$SessionTimeoutCopyWith(
+          _SessionTimeout value, $Res Function(_SessionTimeout) then) =
+      __$SessionTimeoutCopyWithImpl<$Res>;
+  $Res call({String timeout});
+}
+
+/// @nodoc
+class __$SessionTimeoutCopyWithImpl<$Res>
+    extends _$RdBhFailureCopyWithImpl<$Res>
+    implements _$SessionTimeoutCopyWith<$Res> {
+  __$SessionTimeoutCopyWithImpl(
+      _SessionTimeout _value, $Res Function(_SessionTimeout) _then)
+      : super(_value, (v) => _then(v as _SessionTimeout));
+
+  @override
+  _SessionTimeout get _value => super._value as _SessionTimeout;
+
+  @override
+  $Res call({
+    Object? timeout = freezed,
+  }) {
+    return _then(_SessionTimeout(
+      timeout == freezed
+          ? _value.timeout
+          : timeout // ignore: cast_nullable_to_non_nullable
+              as String,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$_SessionTimeout implements _SessionTimeout {
+  const _$_SessionTimeout(this.timeout);
+
+  @override
+  final String timeout;
+
+  @override
+  String toString() {
+    return 'RdBhFailure.sessionTimeout(timeout: $timeout)';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _SessionTimeout &&
+            const DeepCollectionEquality().equals(other.timeout, timeout));
+  }
+
+  @override
+  int get hashCode =>
+      Object.hash(runtimeType, const DeepCollectionEquality().hash(timeout));
+
+  @JsonKey(ignore: true)
+  @override
+  _$SessionTimeoutCopyWith<_SessionTimeout> get copyWith =>
+      __$SessionTimeoutCopyWithImpl<_SessionTimeout>(this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function(String timeout) sessionTimeout,
+    required TResult Function() unAuthorized,
+    required TResult Function() clientFailure,
+    required TResult Function() serverFailure,
+    required TResult Function(String transcations) makertranscation,
+  }) {
+    return sessionTimeout(timeout);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+  }) {
+    return sessionTimeout?.call(timeout);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (sessionTimeout != null) {
+      return sessionTimeout(timeout);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_SessionTimeout value) sessionTimeout,
+    required TResult Function(_UnAuthorized value) unAuthorized,
+    required TResult Function(_ClientFailure value) clientFailure,
+    required TResult Function(_ServerFailure value) serverFailure,
+    required TResult Function(_Makertranscation value) makertranscation,
+  }) {
+    return sessionTimeout(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+  }) {
+    return sessionTimeout?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (sessionTimeout != null) {
+      return sessionTimeout(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _SessionTimeout implements RdBhFailure {
+  const factory _SessionTimeout(String timeout) = _$_SessionTimeout;
+
+  String get timeout;
+  @JsonKey(ignore: true)
+  _$SessionTimeoutCopyWith<_SessionTimeout> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class _$UnAuthorizedCopyWith<$Res> {
+  factory _$UnAuthorizedCopyWith(
+          _UnAuthorized value, $Res Function(_UnAuthorized) then) =
+      __$UnAuthorizedCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$UnAuthorizedCopyWithImpl<$Res> extends _$RdBhFailureCopyWithImpl<$Res>
+    implements _$UnAuthorizedCopyWith<$Res> {
+  __$UnAuthorizedCopyWithImpl(
+      _UnAuthorized _value, $Res Function(_UnAuthorized) _then)
+      : super(_value, (v) => _then(v as _UnAuthorized));
+
+  @override
+  _UnAuthorized get _value => super._value as _UnAuthorized;
+}
+
+/// @nodoc
+
+class _$_UnAuthorized implements _UnAuthorized {
+  const _$_UnAuthorized();
+
+  @override
+  String toString() {
+    return 'RdBhFailure.unAuthorized()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _UnAuthorized);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function(String timeout) sessionTimeout,
+    required TResult Function() unAuthorized,
+    required TResult Function() clientFailure,
+    required TResult Function() serverFailure,
+    required TResult Function(String transcations) makertranscation,
+  }) {
+    return unAuthorized();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+  }) {
+    return unAuthorized?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (unAuthorized != null) {
+      return unAuthorized();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_SessionTimeout value) sessionTimeout,
+    required TResult Function(_UnAuthorized value) unAuthorized,
+    required TResult Function(_ClientFailure value) clientFailure,
+    required TResult Function(_ServerFailure value) serverFailure,
+    required TResult Function(_Makertranscation value) makertranscation,
+  }) {
+    return unAuthorized(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+  }) {
+    return unAuthorized?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (unAuthorized != null) {
+      return unAuthorized(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _UnAuthorized implements RdBhFailure {
+  const factory _UnAuthorized() = _$_UnAuthorized;
+}
+
+/// @nodoc
+abstract class _$ClientFailureCopyWith<$Res> {
+  factory _$ClientFailureCopyWith(
+          _ClientFailure value, $Res Function(_ClientFailure) then) =
+      __$ClientFailureCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$ClientFailureCopyWithImpl<$Res> extends _$RdBhFailureCopyWithImpl<$Res>
+    implements _$ClientFailureCopyWith<$Res> {
+  __$ClientFailureCopyWithImpl(
+      _ClientFailure _value, $Res Function(_ClientFailure) _then)
+      : super(_value, (v) => _then(v as _ClientFailure));
+
+  @override
+  _ClientFailure get _value => super._value as _ClientFailure;
+}
+
+/// @nodoc
+
+class _$_ClientFailure implements _ClientFailure {
+  const _$_ClientFailure();
+
+  @override
+  String toString() {
+    return 'RdBhFailure.clientFailure()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _ClientFailure);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function(String timeout) sessionTimeout,
+    required TResult Function() unAuthorized,
+    required TResult Function() clientFailure,
+    required TResult Function() serverFailure,
+    required TResult Function(String transcations) makertranscation,
+  }) {
+    return clientFailure();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+  }) {
+    return clientFailure?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (clientFailure != null) {
+      return clientFailure();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_SessionTimeout value) sessionTimeout,
+    required TResult Function(_UnAuthorized value) unAuthorized,
+    required TResult Function(_ClientFailure value) clientFailure,
+    required TResult Function(_ServerFailure value) serverFailure,
+    required TResult Function(_Makertranscation value) makertranscation,
+  }) {
+    return clientFailure(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+  }) {
+    return clientFailure?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (clientFailure != null) {
+      return clientFailure(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _ClientFailure implements RdBhFailure {
+  const factory _ClientFailure() = _$_ClientFailure;
+}
+
+/// @nodoc
+abstract class _$ServerFailureCopyWith<$Res> {
+  factory _$ServerFailureCopyWith(
+          _ServerFailure value, $Res Function(_ServerFailure) then) =
+      __$ServerFailureCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$ServerFailureCopyWithImpl<$Res> extends _$RdBhFailureCopyWithImpl<$Res>
+    implements _$ServerFailureCopyWith<$Res> {
+  __$ServerFailureCopyWithImpl(
+      _ServerFailure _value, $Res Function(_ServerFailure) _then)
+      : super(_value, (v) => _then(v as _ServerFailure));
+
+  @override
+  _ServerFailure get _value => super._value as _ServerFailure;
+}
+
+/// @nodoc
+
+class _$_ServerFailure implements _ServerFailure {
+  const _$_ServerFailure();
+
+  @override
+  String toString() {
+    return 'RdBhFailure.serverFailure()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _ServerFailure);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function(String timeout) sessionTimeout,
+    required TResult Function() unAuthorized,
+    required TResult Function() clientFailure,
+    required TResult Function() serverFailure,
+    required TResult Function(String transcations) makertranscation,
+  }) {
+    return serverFailure();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+  }) {
+    return serverFailure?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (serverFailure != null) {
+      return serverFailure();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_SessionTimeout value) sessionTimeout,
+    required TResult Function(_UnAuthorized value) unAuthorized,
+    required TResult Function(_ClientFailure value) clientFailure,
+    required TResult Function(_ServerFailure value) serverFailure,
+    required TResult Function(_Makertranscation value) makertranscation,
+  }) {
+    return serverFailure(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+  }) {
+    return serverFailure?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (serverFailure != null) {
+      return serverFailure(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _ServerFailure implements RdBhFailure {
+  const factory _ServerFailure() = _$_ServerFailure;
+}
+
+/// @nodoc
+abstract class _$MakertranscationCopyWith<$Res> {
+  factory _$MakertranscationCopyWith(
+          _Makertranscation value, $Res Function(_Makertranscation) then) =
+      __$MakertranscationCopyWithImpl<$Res>;
+  $Res call({String transcations});
+}
+
+/// @nodoc
+class __$MakertranscationCopyWithImpl<$Res>
+    extends _$RdBhFailureCopyWithImpl<$Res>
+    implements _$MakertranscationCopyWith<$Res> {
+  __$MakertranscationCopyWithImpl(
+      _Makertranscation _value, $Res Function(_Makertranscation) _then)
+      : super(_value, (v) => _then(v as _Makertranscation));
+
+  @override
+  _Makertranscation get _value => super._value as _Makertranscation;
+
+  @override
+  $Res call({
+    Object? transcations = freezed,
+  }) {
+    return _then(_Makertranscation(
+      transcations == freezed
+          ? _value.transcations
+          : transcations // ignore: cast_nullable_to_non_nullable
+              as String,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$_Makertranscation implements _Makertranscation {
+  const _$_Makertranscation(this.transcations);
+
+  @override
+  final String transcations;
+
+  @override
+  String toString() {
+    return 'RdBhFailure.makertranscation(transcations: $transcations)';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _Makertranscation &&
+            const DeepCollectionEquality()
+                .equals(other.transcations, transcations));
+  }
+
+  @override
+  int get hashCode => Object.hash(
+      runtimeType, const DeepCollectionEquality().hash(transcations));
+
+  @JsonKey(ignore: true)
+  @override
+  _$MakertranscationCopyWith<_Makertranscation> get copyWith =>
+      __$MakertranscationCopyWithImpl<_Makertranscation>(this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function(String timeout) sessionTimeout,
+    required TResult Function() unAuthorized,
+    required TResult Function() clientFailure,
+    required TResult Function() serverFailure,
+    required TResult Function(String transcations) makertranscation,
+  }) {
+    return makertranscation(transcations);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+  }) {
+    return makertranscation?.call(transcations);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function(String timeout)? sessionTimeout,
+    TResult Function()? unAuthorized,
+    TResult Function()? clientFailure,
+    TResult Function()? serverFailure,
+    TResult Function(String transcations)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (makertranscation != null) {
+      return makertranscation(transcations);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_SessionTimeout value) sessionTimeout,
+    required TResult Function(_UnAuthorized value) unAuthorized,
+    required TResult Function(_ClientFailure value) clientFailure,
+    required TResult Function(_ServerFailure value) serverFailure,
+    required TResult Function(_Makertranscation value) makertranscation,
+  }) {
+    return makertranscation(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+  }) {
+    return makertranscation?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_SessionTimeout value)? sessionTimeout,
+    TResult Function(_UnAuthorized value)? unAuthorized,
+    TResult Function(_ClientFailure value)? clientFailure,
+    TResult Function(_ServerFailure value)? serverFailure,
+    TResult Function(_Makertranscation value)? makertranscation,
+    required TResult orElse(),
+  }) {
+    if (makertranscation != null) {
+      return makertranscation(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _Makertranscation implements RdBhFailure {
+  const factory _Makertranscation(String transcations) = _$_Makertranscation;
+
+  String get transcations;
+  @JsonKey(ignore: true)
+  _$MakertranscationCopyWith<_Makertranscation> get copyWith =>
+      throw _privateConstructorUsedError;
+}
